@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Посты</h2>
+<div id="postsContainer">
+    <div class="post">
+        <p>Post 1: Lorem ipsum dolor sit amet.</p>
+        <button onclick="addToFavorites('Post 1: Lorem ipsum dolor sit amet.')">Добавить в избранное</button>
+    </div>
+    <div class="post">
+        <p>Post 2: Consectetur adipiscing elit.</p>
+        <button onclick="addToFavorites('Post 2: Consectetur adipiscing elit.')">Добавить в избранное</button>
+    </div>
+    <div class="post">
+        <p>Post 3: Integer nec odio.</p>
+        <button onclick="addToFavorites('Post 3: Integer nec odio.')">Добавить в избранное</button>
+    </div>
+</div>
+
+<h2>Избранные</h2>
+<div id="favoritesContainer" class="favorites">
+    <p class="hidden">Посты</p>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
